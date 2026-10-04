@@ -33,7 +33,7 @@ input:focus{outline:2px solid var(--ac)}
 .c ul{margin:6px 0 0;padding-left:18px}.c li{margin:3px 0}.w{grid-column:1/-1}
 .chips{display:flex;flex-wrap:wrap;gap:6px}.chips i{font-style:normal;background:var(--ac2);color:var(--ac);border-radius:8px;padding:2px 10px;font-size:12px}
 .row{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap}
-</style></head><body>
+.q{margin:8px 0;padding:8px 12px;border-left:3px solid var(--ac);background:var(--ac2);border-radius:0 8px 8px 0;font-style:italic}.tag{display:inline-block;font-size:11px;border:1px solid var(--ln);border-radius:8px;padding:0 8px;color:var(--mu);margin-right:6px}</style></head><body>
 <div id="login"><div class="lc"><h1>Sign In</h1><p>Jayesh Mudaliar – Resume Portal</p>
 <form id="f" autocomplete="off"><label for="u">Username</label><input id="u" required><label for="pw">Password</label><input id="pw" type="password" required>
 <div id="err">Incorrect user name or password. Try again.</div><button class="btn" type="submit">Log On</button></form>
@@ -47,7 +47,7 @@ input:focus{outline:2px solid var(--ac)}
 <div class="facts"><div>Location<span>Bengaluru, India</span></div><div>Experience<span>12+ years</span></div><div>Phone<span>+91-8770117079</span></div><div>Email<span><a href="mailto:msdsm03jayeshm@iimidr.ac.in">msdsm03jayeshm@iimidr.ac.in</a></span></div></div>
 <div class="lk"><a href="https://www.linkedin.com/in/jayesh-mudaliar-9568a096/" target="_blank" rel="noopener">LinkedIn</a><a href="https://community.sap.com/t5/user/viewprofilepage/user-id/230182" target="_blank" rel="noopener">SAP Blogs</a><a href="https://github.com/jayeshmudaliar" target="_blank" rel="noopener">GitHub</a><a href="https://www.credly.com/badges/29c9a0c0-a8d0-4c3f-a207-1da422bf3892/email" target="_blank" rel="noopener">SAP Gen AI Certificate</a></div></div></div>
 
-<div class="tabs" id="tabs"><button class="on" data-t="o">Overview</button><button data-t="e">Experience</button><button data-t="s">Skills</button><button data-t="pr">Projects</button><button data-t="ed">Education &amp; Awards</button></div>
+<div class="tabs" id="tabs"><button class="on" data-t="o">Overview</button><button data-t="e">Experience</button><button data-t="s">Skills</button><button data-t="pr">Projects</button><button data-t="ed">Education &amp; Awards</button><button data-t="ap">Appreciations</button></div>
 
 <div class="p on" id="o">
 <div class="c w"><h3>About Me</h3><ul>
@@ -90,6 +90,22 @@ input:focus{outline:2px solid var(--ac)}
 <div class="p" id="ed">
 <div class="c"><h3>Education</h3><div class="row"><b>MS – Data Science &amp; Management</b><span class="m">2023–2025 · 71%</span></div><div class="m">IIT Indore &amp; IIM Indore</div><div class="row" style="margin-top:10px"><b>B.E. – Electronics &amp; Communication</b><span class="m">2008–2013 · 64%</span></div><div class="m">RGPV University</div><div class="row" style="margin-top:10px"><b>12th / 10th</b><span class="m">66% / 73%</span></div><div class="m">Kendriya Vidyalaya Nepanagar</div></div>
 <div class="c"><h3>Awards &amp; Recognition</h3><ul><li><b>Cognizant:</b> Coral – Spotlight Award, Amber Award</li><li><b>Vodafone:</b> Super Star Award, Star Award</li><li><b>Infosys:</b> Best of the Best, Crown RCL, Insta Award</li><li>Recognised by SAP for a standard-process defect escalation.</li></ul></div></div>
+<div class="p" id="ap">
+<div class="c w"><h3>Appreciations &amp; Feedback</h3><div class="m">Recognition received from clients, solution owners, peers and managers across Tech Mahindra and Cognizant. Names are withheld; full evidence is available on request.</div></div>
+<div class="c"><span class="tag">Client leadership</span><span class="tag">Tech Mahindra · Connect Group UK</span><h4>Director IT, Connect Group</h4>
+<div class="q">“You've been one of the key people in helping us to establish the team in Pune… you've never let us down.”</div>
+<div class="m">Direct message on my farewell from the engagement, thanking me for the work delivered and for helping set up the Pune team.</div></div>
+<div class="c"><span class="tag">Client</span><span class="tag">Cognizant · Cambridge University Press &amp; Assessments</span><h4>Solution Owner, Cambridge</h4>
+<div class="q">“Thank you for helping out the team! Much appreciated.”</div>
+<div class="m">After I diagnosed and fixed a transport issue: an object defined as a table instead of a structure. I rolled back the request, corrected the object type and re-released it.</div></div>
+<div class="c"><span class="tag">Client peer</span><span class="tag">Cambridge · May 2026</span><h4>Cambridge team member</h4>
+<div class="q">“The parameters you provided worked perfectly.”</div>
+<div class="m">Thanked me by email, copying the wider team, for quickly resolving a Smart Form spool-generation problem that had blocked her for hours.</div></div>
+<div class="c w"><span class="tag">Manager</span><span class="tag">Cognizant · annual review feedback (summarised)</span><h4>Home manager comments, 2023–2025</h4>
+<ul><li><b>2023:</b> very good customer feedback; delivered an SAP Fiori purchase-order approval solution single-handedly and received appreciation from client senior leadership; idea logged in the internal innovation platform; served as ABAP panelist and contributed to RFPs; trained juniors.</li>
+<li><b>2024:</b> customer extremely pleased with delivery of changes; proactive in raising concerns and flagging impact on other changes; dependable; trains and supports many junior resources.</li>
+<li><b>2025:</b> ABAP Lead for the Cambridge account with excellent customer feedback; strong technical expertise and effective client relationship management; strengthened account performance and client satisfaction.</li></ul></div>
+</div>
 </div></div>
 <script>
 const H="daf6c31bea30a75e617ee42f55aca898af164f0de17c17124e7136fcde20ffb8",$=s=>document.querySelector(s);
